@@ -23,8 +23,8 @@ git push origin main
 3. **Configure the service**:
    - **Name**: `movie-search-api`
    - **Environment**: `Python 3`
-   - **Build Command**: `cd Multimodal-Movie-Script-Search-Engine/backend && pip install -r requirements.txt`
-   - **Start Command**: `cd Multimodal-Movie-Script-Search-Engine/backend && python app_fixed.py`
+   - **Build Command**: `cd fullstack-movie-search/Multimodal-Movie-Script-Search-Engine/backend && pip install -r requirements.txt`
+   - **Start Command**: `cd fullstack-movie-search/Multimodal-Movie-Script-Search-Engine/backend && python app_fixed.py`
    - **Plan**: `Free`
 
 4. **Add Environment Variables**:
@@ -39,8 +39,8 @@ git push origin main
 2. **Connect the same repository**
 3. **Configure the static site**:
    - **Name**: `movie-search-frontend`
-   - **Build Command**: `cd Multimodal-Movie-Script-Search-Engine/frontend && npm install && npm run build`
-   - **Publish Directory**: `Multimodal-Movie-Script-Search-Engine/frontend/build`
+   - **Build Command**: `cd fullstack-movie-search/Multimodal-Movie-Script-Search-Engine/frontend && npm install && npm run build`
+   - **Publish Directory**: `fullstack-movie-search/Multimodal-Movie-Script-Search-Engine/frontend/build`
 
 4. **Click "Create Static Site"**
 

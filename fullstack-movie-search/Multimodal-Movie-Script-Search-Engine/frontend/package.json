@@ -18,7 +18,7 @@
     "@headlessui/react": "^1.7.0",
     "@heroicons/react": "^2.0.0"
   },
-  "homepage": "https://fenilvadher.github.io/Multimodal-Movie-Script-Search-Engine",
+  "homepage": "https://multimodal-movie-search.vercel.app",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

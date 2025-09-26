@@ -1172,6 +1172,10 @@ def generate():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+# For Vercel serverless deployment
+def handler(request):
+    return app(request.environ, lambda status, headers: None)
+
 if __name__ == '__main__':
     print("Starting Fixed Movie Search Backend...")
     print(f"✓ Enhanced similarity algorithm loaded")
@@ -1179,9 +1183,12 @@ if __name__ == '__main__':
     print(f"✓ {len(search_engine.dialogs_data)} dialogues with keyword matching")
     print(f"✓ {len(search_engine.scenes_data)} scenes with enhanced descriptions")
     
-    # Get port from environment variable (for Render deployment)
+    # Get port from environment variable (for local/Render deployment)
     port = int(os.environ.get('PORT', 5001))
     debug_mode = os.environ.get('FLASK_ENV', 'development') != 'production'
     
     print(f"Backend will run on port {port}")
     app.run(host='0.0.0.0', port=port, debug=debug_mode)
+
+# Export app for Vercel
+app = app

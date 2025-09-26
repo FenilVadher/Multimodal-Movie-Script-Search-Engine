@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "fullstack-movie-search/Multimodal-Movie-Script-Search-Engine/frontend/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build"
+      }
+    },
+    {
+      "src": "fullstack-movie-search/Multimodal-Movie-Script-Search-Engine/backend/app_fixed.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "fullstack-movie-search/Multimodal-Movie-Script-Search-Engine/backend/app_fixed.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "fullstack-movie-search/Multimodal-Movie-Script-Search-Engine/frontend/build/$1"
+    }
+  ],
+  "env": {
+    "PYTHONPATH": "fullstack-movie-search/Multimodal-Movie-Script-Search-Engine/backend"
+  },
+  "functions": {
+    "fullstack-movie-search/Multimodal-Movie-Script-Search-Engine/backend/app_fixed.py": {
+      "runtime": "python3.9"
+    }
+  }
+}

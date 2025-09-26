@@ -1,0 +1,5167 @@
+{
+  "dataset_name": "Custom Multimodal Movie Dataset",
+  "movies": [
+    {
+      "movie_id": "M001",
+      "movie_title": "Inception",
+      "year": 2018,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Inception.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 1 in Inception."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 2 from scene 1 in Inception."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 3 from scene 1 in Inception."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 4 from scene 1 in Inception."
+            }
+          ],
+          "scene_image": "images/inception_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Inception.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 2 in Inception."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 2 in Inception."
+            }
+          ],
+          "scene_image": "images/inception_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Inception.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 3 in Inception."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 3 in Inception."
+            }
+          ],
+          "scene_image": "images/inception_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Inception.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 4 in Inception."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 4 in Inception."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 4 in Inception."
+            }
+          ],
+          "scene_image": "images/inception_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Inception.",
+          "dialogues": [
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 1 from scene 5 in Inception."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 5 in Inception."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 3 from scene 5 in Inception."
+            }
+          ],
+          "scene_image": "images/inception_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M002",
+      "movie_title": "The Dark Knight",
+      "year": 2004,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from The Dark Knight.",
+          "dialogues": [
+            {
+              "character": "Raju",
+              "text": "Dialogue line 1 from scene 1 in The Dark Knight."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 1 in The Dark Knight."
+            }
+          ],
+          "scene_image": "images/the_dark_knight_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from The Dark Knight.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 2 in The Dark Knight."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 2 in The Dark Knight."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 3 from scene 2 in The Dark Knight."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 4 from scene 2 in The Dark Knight."
+            }
+          ],
+          "scene_image": "images/the_dark_knight_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from The Dark Knight.",
+          "dialogues": [
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 1 from scene 3 in The Dark Knight."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 3 in The Dark Knight."
+            }
+          ],
+          "scene_image": "images/the_dark_knight_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from The Dark Knight.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 4 in The Dark Knight."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 2 from scene 4 in The Dark Knight."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 3 from scene 4 in The Dark Knight."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 4 from scene 4 in The Dark Knight."
+            }
+          ],
+          "scene_image": "images/the_dark_knight_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from The Dark Knight.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 5 in The Dark Knight."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 5 in The Dark Knight."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 3 from scene 5 in The Dark Knight."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 4 from scene 5 in The Dark Knight."
+            }
+          ],
+          "scene_image": "images/the_dark_knight_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M003",
+      "movie_title": "Interstellar",
+      "year": 2010,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Interstellar.",
+          "dialogues": [
+            {
+              "character": "Raju",
+              "text": "Dialogue line 1 from scene 1 in Interstellar."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 1 in Interstellar."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 3 from scene 1 in Interstellar."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 4 from scene 1 in Interstellar."
+            }
+          ],
+          "scene_image": "images/interstellar_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Interstellar.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 2 in Interstellar."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 2 in Interstellar."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 3 from scene 2 in Interstellar."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 4 from scene 2 in Interstellar."
+            }
+          ],
+          "scene_image": "images/interstellar_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Interstellar.",
+          "dialogues": [
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 1 from scene 3 in Interstellar."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 3 in Interstellar."
+            }
+          ],
+          "scene_image": "images/interstellar_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Interstellar.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 4 in Interstellar."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 4 in Interstellar."
+            }
+          ],
+          "scene_image": "images/interstellar_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Interstellar.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 5 in Interstellar."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 5 in Interstellar."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 3 from scene 5 in Interstellar."
+            }
+          ],
+          "scene_image": "images/interstellar_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M004",
+      "movie_title": "Titanic",
+      "year": 2020,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Titanic.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 1 in Titanic."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 1 in Titanic."
+            }
+          ],
+          "scene_image": "images/titanic_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Titanic.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 2 in Titanic."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 2 in Titanic."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 3 from scene 2 in Titanic."
+            }
+          ],
+          "scene_image": "images/titanic_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Titanic.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 3 in Titanic."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 3 in Titanic."
+            }
+          ],
+          "scene_image": "images/titanic_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Titanic.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 4 in Titanic."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 4 in Titanic."
+            }
+          ],
+          "scene_image": "images/titanic_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Titanic.",
+          "dialogues": [
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 1 from scene 5 in Titanic."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 5 in Titanic."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 3 from scene 5 in Titanic."
+            }
+          ],
+          "scene_image": "images/titanic_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M005",
+      "movie_title": "Avengers",
+      "year": 2012,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Avengers.",
+          "dialogues": [
+            {
+              "character": "Amit",
+              "text": "Dialogue line 1 from scene 1 in Avengers."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 2 from scene 1 in Avengers."
+            }
+          ],
+          "scene_image": "images/avengers_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Avengers.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 2 in Avengers."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 2 in Avengers."
+            }
+          ],
+          "scene_image": "images/avengers_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Avengers.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 3 in Avengers."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 3 in Avengers."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 3 from scene 3 in Avengers."
+            }
+          ],
+          "scene_image": "images/avengers_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Avengers.",
+          "dialogues": [
+            {
+              "character": "Amit",
+              "text": "Dialogue line 1 from scene 4 in Avengers."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 2 from scene 4 in Avengers."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 3 from scene 4 in Avengers."
+            }
+          ],
+          "scene_image": "images/avengers_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Avengers.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 5 in Avengers."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 5 in Avengers."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 3 from scene 5 in Avengers."
+            }
+          ],
+          "scene_image": "images/avengers_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M006",
+      "movie_title": "3 Idiots",
+      "year": 2024,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from 3 Idiots.",
+          "dialogues": [
+            {
+              "character": "Amit",
+              "text": "Dialogue line 1 from scene 1 in 3 Idiots."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 1 in 3 Idiots."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 1 in 3 Idiots."
+            }
+          ],
+          "scene_image": "images/3_idiots_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from 3 Idiots.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 2 in 3 Idiots."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 2 in 3 Idiots."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 3 from scene 2 in 3 Idiots."
+            }
+          ],
+          "scene_image": "images/3_idiots_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from 3 Idiots.",
+          "dialogues": [
+            {
+              "character": "Raju",
+              "text": "Dialogue line 1 from scene 3 in 3 Idiots."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 3 in 3 Idiots."
+            }
+          ],
+          "scene_image": "images/3_idiots_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from 3 Idiots.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 4 in 3 Idiots."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 4 in 3 Idiots."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 3 from scene 4 in 3 Idiots."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 4 from scene 4 in 3 Idiots."
+            }
+          ],
+          "scene_image": "images/3_idiots_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from 3 Idiots.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 5 in 3 Idiots."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 5 in 3 Idiots."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 3 from scene 5 in 3 Idiots."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 4 from scene 5 in 3 Idiots."
+            }
+          ],
+          "scene_image": "images/3_idiots_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M007",
+      "movie_title": "Dilwale Dulhania Le Jayenge",
+      "year": 2006,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Dilwale Dulhania Le Jayenge.",
+          "dialogues": [
+            {
+              "character": "Amit",
+              "text": "Dialogue line 1 from scene 1 in Dilwale Dulhania Le Jayenge."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 1 in Dilwale Dulhania Le Jayenge."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 3 from scene 1 in Dilwale Dulhania Le Jayenge."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 4 from scene 1 in Dilwale Dulhania Le Jayenge."
+            }
+          ],
+          "scene_image": "images/dilwale_dulhania_le_jayenge_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Dilwale Dulhania Le Jayenge.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 2 in Dilwale Dulhania Le Jayenge."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 2 in Dilwale Dulhania Le Jayenge."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 3 from scene 2 in Dilwale Dulhania Le Jayenge."
+            }
+          ],
+          "scene_image": "images/dilwale_dulhania_le_jayenge_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Dilwale Dulhania Le Jayenge.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 3 in Dilwale Dulhania Le Jayenge."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 3 in Dilwale Dulhania Le Jayenge."
+            }
+          ],
+          "scene_image": "images/dilwale_dulhania_le_jayenge_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Dilwale Dulhania Le Jayenge.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 4 in Dilwale Dulhania Le Jayenge."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 4 in Dilwale Dulhania Le Jayenge."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 4 in Dilwale Dulhania Le Jayenge."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 4 from scene 4 in Dilwale Dulhania Le Jayenge."
+            }
+          ],
+          "scene_image": "images/dilwale_dulhania_le_jayenge_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Dilwale Dulhania Le Jayenge.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 5 in Dilwale Dulhania Le Jayenge."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 5 in Dilwale Dulhania Le Jayenge."
+            }
+          ],
+          "scene_image": "images/dilwale_dulhania_le_jayenge_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M008",
+      "movie_title": "Sholay",
+      "year": 2013,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Sholay.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 1 in Sholay."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 1 in Sholay."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 3 from scene 1 in Sholay."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 4 from scene 1 in Sholay."
+            }
+          ],
+          "scene_image": "images/sholay_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Sholay.",
+          "dialogues": [
+            {
+              "character": "Amit",
+              "text": "Dialogue line 1 from scene 2 in Sholay."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 2 in Sholay."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 2 in Sholay."
+            }
+          ],
+          "scene_image": "images/sholay_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Sholay.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 3 in Sholay."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 3 in Sholay."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 3 from scene 3 in Sholay."
+            }
+          ],
+          "scene_image": "images/sholay_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Sholay.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 4 in Sholay."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 4 in Sholay."
+            }
+          ],
+          "scene_image": "images/sholay_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Sholay.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 5 in Sholay."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 5 in Sholay."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 3 from scene 5 in Sholay."
+            }
+          ],
+          "scene_image": "images/sholay_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M009",
+      "movie_title": "PK",
+      "year": 2007,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from PK.",
+          "dialogues": [
+            {
+              "character": "Amit",
+              "text": "Dialogue line 1 from scene 1 in PK."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 1 in PK."
+            }
+          ],
+          "scene_image": "images/pk_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from PK.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 2 in PK."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 2 in PK."
+            }
+          ],
+          "scene_image": "images/pk_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from PK.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 3 in PK."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 3 in PK."
+            }
+          ],
+          "scene_image": "images/pk_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from PK.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 4 in PK."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 4 in PK."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 3 from scene 4 in PK."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 4 from scene 4 in PK."
+            }
+          ],
+          "scene_image": "images/pk_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from PK.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 5 in PK."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 2 from scene 5 in PK."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 3 from scene 5 in PK."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 4 from scene 5 in PK."
+            }
+          ],
+          "scene_image": "images/pk_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M010",
+      "movie_title": "Zindagi Na Milegi Dobara",
+      "year": 2006,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Zindagi Na Milegi Dobara.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 1 in Zindagi Na Milegi Dobara."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 1 in Zindagi Na Milegi Dobara."
+            }
+          ],
+          "scene_image": "images/zindagi_na_milegi_dobara_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Zindagi Na Milegi Dobara.",
+          "dialogues": [
+            {
+              "character": "Raju",
+              "text": "Dialogue line 1 from scene 2 in Zindagi Na Milegi Dobara."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 2 in Zindagi Na Milegi Dobara."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 3 from scene 2 in Zindagi Na Milegi Dobara."
+            }
+          ],
+          "scene_image": "images/zindagi_na_milegi_dobara_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Zindagi Na Milegi Dobara.",
+          "dialogues": [
+            {
+              "character": "Raju",
+              "text": "Dialogue line 1 from scene 3 in Zindagi Na Milegi Dobara."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 3 in Zindagi Na Milegi Dobara."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 3 from scene 3 in Zindagi Na Milegi Dobara."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 4 from scene 3 in Zindagi Na Milegi Dobara."
+            }
+          ],
+          "scene_image": "images/zindagi_na_milegi_dobara_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Zindagi Na Milegi Dobara.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 4 in Zindagi Na Milegi Dobara."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 2 from scene 4 in Zindagi Na Milegi Dobara."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 3 from scene 4 in Zindagi Na Milegi Dobara."
+            }
+          ],
+          "scene_image": "images/zindagi_na_milegi_dobara_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Zindagi Na Milegi Dobara.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 5 in Zindagi Na Milegi Dobara."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 5 in Zindagi Na Milegi Dobara."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 3 from scene 5 in Zindagi Na Milegi Dobara."
+            }
+          ],
+          "scene_image": "images/zindagi_na_milegi_dobara_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M011",
+      "movie_title": "The Matrix",
+      "year": 2002,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from The Matrix.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 1 in The Matrix."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 1 in The Matrix."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 3 from scene 1 in The Matrix."
+            }
+          ],
+          "scene_image": "images/the_matrix_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from The Matrix.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 2 in The Matrix."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 2 in The Matrix."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 3 from scene 2 in The Matrix."
+            }
+          ],
+          "scene_image": "images/the_matrix_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from The Matrix.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 3 in The Matrix."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 3 in The Matrix."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 3 in The Matrix."
+            }
+          ],
+          "scene_image": "images/the_matrix_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from The Matrix.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 4 in The Matrix."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 4 in The Matrix."
+            }
+          ],
+          "scene_image": "images/the_matrix_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from The Matrix.",
+          "dialogues": [
+            {
+              "character": "Amit",
+              "text": "Dialogue line 1 from scene 5 in The Matrix."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 5 in The Matrix."
+            }
+          ],
+          "scene_image": "images/the_matrix_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M012",
+      "movie_title": "Gladiator",
+      "year": 2008,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Gladiator.",
+          "dialogues": [
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 1 from scene 1 in Gladiator."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 1 in Gladiator."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 3 from scene 1 in Gladiator."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 4 from scene 1 in Gladiator."
+            }
+          ],
+          "scene_image": "images/gladiator_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Gladiator.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 2 in Gladiator."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 2 in Gladiator."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 2 in Gladiator."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 4 from scene 2 in Gladiator."
+            }
+          ],
+          "scene_image": "images/gladiator_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Gladiator.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 3 in Gladiator."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 3 in Gladiator."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 3 from scene 3 in Gladiator."
+            }
+          ],
+          "scene_image": "images/gladiator_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Gladiator.",
+          "dialogues": [
+            {
+              "character": "Amit",
+              "text": "Dialogue line 1 from scene 4 in Gladiator."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 4 in Gladiator."
+            }
+          ],
+          "scene_image": "images/gladiator_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Gladiator.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 5 in Gladiator."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 5 in Gladiator."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 3 from scene 5 in Gladiator."
+            }
+          ],
+          "scene_image": "images/gladiator_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M013",
+      "movie_title": "Jurassic Park",
+      "year": 2009,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Jurassic Park.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 1 in Jurassic Park."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 1 in Jurassic Park."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 3 from scene 1 in Jurassic Park."
+            }
+          ],
+          "scene_image": "images/jurassic_park_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Jurassic Park.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 2 in Jurassic Park."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 2 in Jurassic Park."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 3 from scene 2 in Jurassic Park."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 4 from scene 2 in Jurassic Park."
+            }
+          ],
+          "scene_image": "images/jurassic_park_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Jurassic Park.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 3 in Jurassic Park."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 3 in Jurassic Park."
+            }
+          ],
+          "scene_image": "images/jurassic_park_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Jurassic Park.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 4 in Jurassic Park."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 4 in Jurassic Park."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 3 from scene 4 in Jurassic Park."
+            }
+          ],
+          "scene_image": "images/jurassic_park_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Jurassic Park.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 5 in Jurassic Park."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 5 in Jurassic Park."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 5 in Jurassic Park."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 4 from scene 5 in Jurassic Park."
+            }
+          ],
+          "scene_image": "images/jurassic_park_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M014",
+      "movie_title": "Harry Potter",
+      "year": 1991,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Harry Potter.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 1 in Harry Potter."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 1 in Harry Potter."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 3 from scene 1 in Harry Potter."
+            }
+          ],
+          "scene_image": "images/harry_potter_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Harry Potter.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 2 in Harry Potter."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 2 in Harry Potter."
+            }
+          ],
+          "scene_image": "images/harry_potter_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Harry Potter.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 3 in Harry Potter."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 3 in Harry Potter."
+            }
+          ],
+          "scene_image": "images/harry_potter_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Harry Potter.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 4 in Harry Potter."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 4 in Harry Potter."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 3 from scene 4 in Harry Potter."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 4 from scene 4 in Harry Potter."
+            }
+          ],
+          "scene_image": "images/harry_potter_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Harry Potter.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 5 in Harry Potter."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 5 in Harry Potter."
+            }
+          ],
+          "scene_image": "images/harry_potter_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M015",
+      "movie_title": "The Lord of the Rings",
+      "year": 2020,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from The Lord of the Rings.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 1 in The Lord of the Rings."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 1 in The Lord of the Rings."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 1 in The Lord of the Rings."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 4 from scene 1 in The Lord of the Rings."
+            }
+          ],
+          "scene_image": "images/the_lord_of_the_rings_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from The Lord of the Rings.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 2 in The Lord of the Rings."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 2 in The Lord of the Rings."
+            }
+          ],
+          "scene_image": "images/the_lord_of_the_rings_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from The Lord of the Rings.",
+          "dialogues": [
+            {
+              "character": "Amit",
+              "text": "Dialogue line 1 from scene 3 in The Lord of the Rings."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 3 in The Lord of the Rings."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 3 in The Lord of the Rings."
+            }
+          ],
+          "scene_image": "images/the_lord_of_the_rings_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from The Lord of the Rings.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 4 in The Lord of the Rings."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 4 in The Lord of the Rings."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 4 in The Lord of the Rings."
+            }
+          ],
+          "scene_image": "images/the_lord_of_the_rings_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from The Lord of the Rings.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 5 in The Lord of the Rings."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 5 in The Lord of the Rings."
+            }
+          ],
+          "scene_image": "images/the_lord_of_the_rings_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M016",
+      "movie_title": "Lagaan",
+      "year": 2004,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Lagaan.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 1 in Lagaan."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 1 in Lagaan."
+            }
+          ],
+          "scene_image": "images/lagaan_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Lagaan.",
+          "dialogues": [
+            {
+              "character": "Raju",
+              "text": "Dialogue line 1 from scene 2 in Lagaan."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 2 in Lagaan."
+            }
+          ],
+          "scene_image": "images/lagaan_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Lagaan.",
+          "dialogues": [
+            {
+              "character": "Raju",
+              "text": "Dialogue line 1 from scene 3 in Lagaan."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 3 in Lagaan."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 3 in Lagaan."
+            }
+          ],
+          "scene_image": "images/lagaan_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Lagaan.",
+          "dialogues": [
+            {
+              "character": "Raju",
+              "text": "Dialogue line 1 from scene 4 in Lagaan."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 4 in Lagaan."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 3 from scene 4 in Lagaan."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 4 from scene 4 in Lagaan."
+            }
+          ],
+          "scene_image": "images/lagaan_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Lagaan.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 5 in Lagaan."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 2 from scene 5 in Lagaan."
+            }
+          ],
+          "scene_image": "images/lagaan_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M017",
+      "movie_title": "Chak De India",
+      "year": 2017,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Chak De India.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 1 in Chak De India."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 1 in Chak De India."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 3 from scene 1 in Chak De India."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 4 from scene 1 in Chak De India."
+            }
+          ],
+          "scene_image": "images/chak_de_india_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Chak De India.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 2 in Chak De India."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 2 in Chak De India."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 3 from scene 2 in Chak De India."
+            }
+          ],
+          "scene_image": "images/chak_de_india_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Chak De India.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 3 in Chak De India."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 3 in Chak De India."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 3 from scene 3 in Chak De India."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 4 from scene 3 in Chak De India."
+            }
+          ],
+          "scene_image": "images/chak_de_india_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Chak De India.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 4 in Chak De India."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 2 from scene 4 in Chak De India."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 4 in Chak De India."
+            }
+          ],
+          "scene_image": "images/chak_de_india_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Chak De India.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 5 in Chak De India."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 5 in Chak De India."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 5 in Chak De India."
+            }
+          ],
+          "scene_image": "images/chak_de_india_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M018",
+      "movie_title": "Barfi",
+      "year": 1991,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Barfi.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 1 in Barfi."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 1 in Barfi."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 3 from scene 1 in Barfi."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 4 from scene 1 in Barfi."
+            }
+          ],
+          "scene_image": "images/barfi_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Barfi.",
+          "dialogues": [
+            {
+              "character": "Amit",
+              "text": "Dialogue line 1 from scene 2 in Barfi."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 2 in Barfi."
+            }
+          ],
+          "scene_image": "images/barfi_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Barfi.",
+          "dialogues": [
+            {
+              "character": "Raju",
+              "text": "Dialogue line 1 from scene 3 in Barfi."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 3 in Barfi."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 3 from scene 3 in Barfi."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 4 from scene 3 in Barfi."
+            }
+          ],
+          "scene_image": "images/barfi_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Barfi.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 4 in Barfi."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 4 in Barfi."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 3 from scene 4 in Barfi."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 4 from scene 4 in Barfi."
+            }
+          ],
+          "scene_image": "images/barfi_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Barfi.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 5 in Barfi."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 5 in Barfi."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 3 from scene 5 in Barfi."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 4 from scene 5 in Barfi."
+            }
+          ],
+          "scene_image": "images/barfi_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M019",
+      "movie_title": "Dangal",
+      "year": 1992,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Dangal.",
+          "dialogues": [
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 1 from scene 1 in Dangal."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 1 in Dangal."
+            }
+          ],
+          "scene_image": "images/dangal_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Dangal.",
+          "dialogues": [
+            {
+              "character": "Amit",
+              "text": "Dialogue line 1 from scene 2 in Dangal."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 2 in Dangal."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 3 from scene 2 in Dangal."
+            }
+          ],
+          "scene_image": "images/dangal_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Dangal.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 3 in Dangal."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 3 in Dangal."
+            }
+          ],
+          "scene_image": "images/dangal_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Dangal.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 4 in Dangal."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 4 in Dangal."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 3 from scene 4 in Dangal."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 4 from scene 4 in Dangal."
+            }
+          ],
+          "scene_image": "images/dangal_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Dangal.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 5 in Dangal."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 5 in Dangal."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 3 from scene 5 in Dangal."
+            }
+          ],
+          "scene_image": "images/dangal_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M020",
+      "movie_title": "Gully Boy",
+      "year": 1996,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Gully Boy.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 1 in Gully Boy."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 2 from scene 1 in Gully Boy."
+            }
+          ],
+          "scene_image": "images/gully_boy_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Gully Boy.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 2 in Gully Boy."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 2 in Gully Boy."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 2 in Gully Boy."
+            }
+          ],
+          "scene_image": "images/gully_boy_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Gully Boy.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 3 in Gully Boy."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 2 from scene 3 in Gully Boy."
+            }
+          ],
+          "scene_image": "images/gully_boy_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Gully Boy.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 4 in Gully Boy."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 4 in Gully Boy."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 3 from scene 4 in Gully Boy."
+            }
+          ],
+          "scene_image": "images/gully_boy_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Gully Boy.",
+          "dialogues": [
+            {
+              "character": "Amit",
+              "text": "Dialogue line 1 from scene 5 in Gully Boy."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 5 in Gully Boy."
+            }
+          ],
+          "scene_image": "images/gully_boy_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M021",
+      "movie_title": "Iron Man",
+      "year": 2018,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Iron Man.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 1 in Iron Man."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 1 in Iron Man."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 3 from scene 1 in Iron Man."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 4 from scene 1 in Iron Man."
+            }
+          ],
+          "scene_image": "images/iron_man_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Iron Man.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 2 in Iron Man."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 2 in Iron Man."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 2 in Iron Man."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 4 from scene 2 in Iron Man."
+            }
+          ],
+          "scene_image": "images/iron_man_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Iron Man.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 3 in Iron Man."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 3 in Iron Man."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 3 from scene 3 in Iron Man."
+            }
+          ],
+          "scene_image": "images/iron_man_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Iron Man.",
+          "dialogues": [
+            {
+              "character": "Raju",
+              "text": "Dialogue line 1 from scene 4 in Iron Man."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 2 from scene 4 in Iron Man."
+            }
+          ],
+          "scene_image": "images/iron_man_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Iron Man.",
+          "dialogues": [
+            {
+              "character": "Raju",
+              "text": "Dialogue line 1 from scene 5 in Iron Man."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 5 in Iron Man."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 3 from scene 5 in Iron Man."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 4 from scene 5 in Iron Man."
+            }
+          ],
+          "scene_image": "images/iron_man_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M022",
+      "movie_title": "Captain America",
+      "year": 2002,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Captain America.",
+          "dialogues": [
+            {
+              "character": "Raju",
+              "text": "Dialogue line 1 from scene 1 in Captain America."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 1 in Captain America."
+            }
+          ],
+          "scene_image": "images/captain_america_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Captain America.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 2 in Captain America."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 2 in Captain America."
+            }
+          ],
+          "scene_image": "images/captain_america_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Captain America.",
+          "dialogues": [
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 1 from scene 3 in Captain America."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 3 in Captain America."
+            }
+          ],
+          "scene_image": "images/captain_america_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Captain America.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 4 in Captain America."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 4 in Captain America."
+            }
+          ],
+          "scene_image": "images/captain_america_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Captain America.",
+          "dialogues": [
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 1 from scene 5 in Captain America."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 5 in Captain America."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 3 from scene 5 in Captain America."
+            }
+          ],
+          "scene_image": "images/captain_america_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M023",
+      "movie_title": "Thor",
+      "year": 1992,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Thor.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 1 in Thor."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 1 in Thor."
+            }
+          ],
+          "scene_image": "images/thor_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Thor.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 2 in Thor."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 2 in Thor."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 3 from scene 2 in Thor."
+            }
+          ],
+          "scene_image": "images/thor_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Thor.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 3 in Thor."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 3 in Thor."
+            }
+          ],
+          "scene_image": "images/thor_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Thor.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 4 in Thor."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 4 in Thor."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 3 from scene 4 in Thor."
+            }
+          ],
+          "scene_image": "images/thor_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Thor.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 5 in Thor."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 5 in Thor."
+            }
+          ],
+          "scene_image": "images/thor_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M024",
+      "movie_title": "Doctor Strange",
+      "year": 1992,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Doctor Strange.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 1 in Doctor Strange."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 1 in Doctor Strange."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 3 from scene 1 in Doctor Strange."
+            }
+          ],
+          "scene_image": "images/doctor_strange_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Doctor Strange.",
+          "dialogues": [
+            {
+              "character": "Amit",
+              "text": "Dialogue line 1 from scene 2 in Doctor Strange."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 2 in Doctor Strange."
+            }
+          ],
+          "scene_image": "images/doctor_strange_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Doctor Strange.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 3 in Doctor Strange."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 3 in Doctor Strange."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 3 from scene 3 in Doctor Strange."
+            }
+          ],
+          "scene_image": "images/doctor_strange_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Doctor Strange.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 4 in Doctor Strange."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 4 in Doctor Strange."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 3 from scene 4 in Doctor Strange."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 4 from scene 4 in Doctor Strange."
+            }
+          ],
+          "scene_image": "images/doctor_strange_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Doctor Strange.",
+          "dialogues": [
+            {
+              "character": "Raju",
+              "text": "Dialogue line 1 from scene 5 in Doctor Strange."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 5 in Doctor Strange."
+            }
+          ],
+          "scene_image": "images/doctor_strange_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M025",
+      "movie_title": "Black Panther",
+      "year": 2006,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Black Panther.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 1 in Black Panther."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 1 in Black Panther."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 3 from scene 1 in Black Panther."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 4 from scene 1 in Black Panther."
+            }
+          ],
+          "scene_image": "images/black_panther_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Black Panther.",
+          "dialogues": [
+            {
+              "character": "Amit",
+              "text": "Dialogue line 1 from scene 2 in Black Panther."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 2 in Black Panther."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 3 from scene 2 in Black Panther."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 4 from scene 2 in Black Panther."
+            }
+          ],
+          "scene_image": "images/black_panther_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Black Panther.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 3 in Black Panther."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 3 in Black Panther."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 3 from scene 3 in Black Panther."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 4 from scene 3 in Black Panther."
+            }
+          ],
+          "scene_image": "images/black_panther_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Black Panther.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 4 in Black Panther."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 4 in Black Panther."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 3 from scene 4 in Black Panther."
+            }
+          ],
+          "scene_image": "images/black_panther_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Black Panther.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 5 in Black Panther."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 5 in Black Panther."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 3 from scene 5 in Black Panther."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 4 from scene 5 in Black Panther."
+            }
+          ],
+          "scene_image": "images/black_panther_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M026",
+      "movie_title": "Kuch Kuch Hota Hai",
+      "year": 2014,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Kuch Kuch Hota Hai.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 1 in Kuch Kuch Hota Hai."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 1 in Kuch Kuch Hota Hai."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 3 from scene 1 in Kuch Kuch Hota Hai."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 4 from scene 1 in Kuch Kuch Hota Hai."
+            }
+          ],
+          "scene_image": "images/kuch_kuch_hota_hai_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Kuch Kuch Hota Hai.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 2 in Kuch Kuch Hota Hai."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 2 in Kuch Kuch Hota Hai."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 3 from scene 2 in Kuch Kuch Hota Hai."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 4 from scene 2 in Kuch Kuch Hota Hai."
+            }
+          ],
+          "scene_image": "images/kuch_kuch_hota_hai_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Kuch Kuch Hota Hai.",
+          "dialogues": [
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 1 from scene 3 in Kuch Kuch Hota Hai."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 3 in Kuch Kuch Hota Hai."
+            }
+          ],
+          "scene_image": "images/kuch_kuch_hota_hai_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Kuch Kuch Hota Hai.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 4 in Kuch Kuch Hota Hai."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 4 in Kuch Kuch Hota Hai."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 3 from scene 4 in Kuch Kuch Hota Hai."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 4 from scene 4 in Kuch Kuch Hota Hai."
+            }
+          ],
+          "scene_image": "images/kuch_kuch_hota_hai_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Kuch Kuch Hota Hai.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 5 in Kuch Kuch Hota Hai."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 5 in Kuch Kuch Hota Hai."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 3 from scene 5 in Kuch Kuch Hota Hai."
+            }
+          ],
+          "scene_image": "images/kuch_kuch_hota_hai_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M027",
+      "movie_title": "Kabhi Khushi Kabhi Gham",
+      "year": 2008,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Kabhi Khushi Kabhi Gham.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 1 in Kabhi Khushi Kabhi Gham."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 1 in Kabhi Khushi Kabhi Gham."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 3 from scene 1 in Kabhi Khushi Kabhi Gham."
+            }
+          ],
+          "scene_image": "images/kabhi_khushi_kabhi_gham_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Kabhi Khushi Kabhi Gham.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 2 in Kabhi Khushi Kabhi Gham."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 2 in Kabhi Khushi Kabhi Gham."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 3 from scene 2 in Kabhi Khushi Kabhi Gham."
+            }
+          ],
+          "scene_image": "images/kabhi_khushi_kabhi_gham_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Kabhi Khushi Kabhi Gham.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 3 in Kabhi Khushi Kabhi Gham."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 2 from scene 3 in Kabhi Khushi Kabhi Gham."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 3 from scene 3 in Kabhi Khushi Kabhi Gham."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 4 from scene 3 in Kabhi Khushi Kabhi Gham."
+            }
+          ],
+          "scene_image": "images/kabhi_khushi_kabhi_gham_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Kabhi Khushi Kabhi Gham.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 4 in Kabhi Khushi Kabhi Gham."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 4 in Kabhi Khushi Kabhi Gham."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 3 from scene 4 in Kabhi Khushi Kabhi Gham."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 4 from scene 4 in Kabhi Khushi Kabhi Gham."
+            }
+          ],
+          "scene_image": "images/kabhi_khushi_kabhi_gham_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Kabhi Khushi Kabhi Gham.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 5 in Kabhi Khushi Kabhi Gham."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 5 in Kabhi Khushi Kabhi Gham."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 5 in Kabhi Khushi Kabhi Gham."
+            }
+          ],
+          "scene_image": "images/kabhi_khushi_kabhi_gham_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M028",
+      "movie_title": "Kal Ho Naa Ho",
+      "year": 2004,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Kal Ho Naa Ho.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 1 in Kal Ho Naa Ho."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 1 in Kal Ho Naa Ho."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 3 from scene 1 in Kal Ho Naa Ho."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 4 from scene 1 in Kal Ho Naa Ho."
+            }
+          ],
+          "scene_image": "images/kal_ho_naa_ho_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Kal Ho Naa Ho.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 2 in Kal Ho Naa Ho."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 2 in Kal Ho Naa Ho."
+            }
+          ],
+          "scene_image": "images/kal_ho_naa_ho_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Kal Ho Naa Ho.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 3 in Kal Ho Naa Ho."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 3 in Kal Ho Naa Ho."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 3 from scene 3 in Kal Ho Naa Ho."
+            }
+          ],
+          "scene_image": "images/kal_ho_naa_ho_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Kal Ho Naa Ho.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 4 in Kal Ho Naa Ho."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 4 in Kal Ho Naa Ho."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 3 from scene 4 in Kal Ho Naa Ho."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 4 from scene 4 in Kal Ho Naa Ho."
+            }
+          ],
+          "scene_image": "images/kal_ho_naa_ho_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Kal Ho Naa Ho.",
+          "dialogues": [
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 1 from scene 5 in Kal Ho Naa Ho."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 5 in Kal Ho Naa Ho."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 3 from scene 5 in Kal Ho Naa Ho."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 4 from scene 5 in Kal Ho Naa Ho."
+            }
+          ],
+          "scene_image": "images/kal_ho_naa_ho_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M029",
+      "movie_title": "Bajrangi Bhaijaan",
+      "year": 1994,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Bajrangi Bhaijaan.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 1 in Bajrangi Bhaijaan."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 1 in Bajrangi Bhaijaan."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 3 from scene 1 in Bajrangi Bhaijaan."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 4 from scene 1 in Bajrangi Bhaijaan."
+            }
+          ],
+          "scene_image": "images/bajrangi_bhaijaan_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Bajrangi Bhaijaan.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 2 in Bajrangi Bhaijaan."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 2 in Bajrangi Bhaijaan."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 3 from scene 2 in Bajrangi Bhaijaan."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 4 from scene 2 in Bajrangi Bhaijaan."
+            }
+          ],
+          "scene_image": "images/bajrangi_bhaijaan_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Bajrangi Bhaijaan.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 3 in Bajrangi Bhaijaan."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 3 in Bajrangi Bhaijaan."
+            }
+          ],
+          "scene_image": "images/bajrangi_bhaijaan_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Bajrangi Bhaijaan.",
+          "dialogues": [
+            {
+              "character": "Raju",
+              "text": "Dialogue line 1 from scene 4 in Bajrangi Bhaijaan."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 4 in Bajrangi Bhaijaan."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 3 from scene 4 in Bajrangi Bhaijaan."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 4 from scene 4 in Bajrangi Bhaijaan."
+            }
+          ],
+          "scene_image": "images/bajrangi_bhaijaan_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Bajrangi Bhaijaan.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 5 in Bajrangi Bhaijaan."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 5 in Bajrangi Bhaijaan."
+            }
+          ],
+          "scene_image": "images/bajrangi_bhaijaan_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M030",
+      "movie_title": "Pathaan",
+      "year": 2016,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Pathaan.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 1 in Pathaan."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 1 in Pathaan."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 3 from scene 1 in Pathaan."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 4 from scene 1 in Pathaan."
+            }
+          ],
+          "scene_image": "images/pathaan_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Pathaan.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 2 in Pathaan."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 2 in Pathaan."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 3 from scene 2 in Pathaan."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 4 from scene 2 in Pathaan."
+            }
+          ],
+          "scene_image": "images/pathaan_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Pathaan.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 3 in Pathaan."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 3 in Pathaan."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 3 from scene 3 in Pathaan."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 4 from scene 3 in Pathaan."
+            }
+          ],
+          "scene_image": "images/pathaan_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Pathaan.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 4 in Pathaan."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 4 in Pathaan."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 3 from scene 4 in Pathaan."
+            }
+          ],
+          "scene_image": "images/pathaan_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Pathaan.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 5 in Pathaan."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 2 from scene 5 in Pathaan."
+            }
+          ],
+          "scene_image": "images/pathaan_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M031",
+      "movie_title": "The Lion King",
+      "year": 2013,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from The Lion King.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 1 in The Lion King."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 1 in The Lion King."
+            }
+          ],
+          "scene_image": "images/the_lion_king_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from The Lion King.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 2 in The Lion King."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 2 in The Lion King."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 3 from scene 2 in The Lion King."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 4 from scene 2 in The Lion King."
+            }
+          ],
+          "scene_image": "images/the_lion_king_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from The Lion King.",
+          "dialogues": [
+            {
+              "character": "Amit",
+              "text": "Dialogue line 1 from scene 3 in The Lion King."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 3 in The Lion King."
+            }
+          ],
+          "scene_image": "images/the_lion_king_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from The Lion King.",
+          "dialogues": [
+            {
+              "character": "Amit",
+              "text": "Dialogue line 1 from scene 4 in The Lion King."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 4 in The Lion King."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 3 from scene 4 in The Lion King."
+            }
+          ],
+          "scene_image": "images/the_lion_king_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from The Lion King.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 5 in The Lion King."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 5 in The Lion King."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 3 from scene 5 in The Lion King."
+            }
+          ],
+          "scene_image": "images/the_lion_king_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M032",
+      "movie_title": "Frozen",
+      "year": 2009,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Frozen.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 1 in Frozen."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 2 from scene 1 in Frozen."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 3 from scene 1 in Frozen."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 4 from scene 1 in Frozen."
+            }
+          ],
+          "scene_image": "images/frozen_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Frozen.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 2 in Frozen."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 2 in Frozen."
+            }
+          ],
+          "scene_image": "images/frozen_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Frozen.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 3 in Frozen."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 3 in Frozen."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 3 from scene 3 in Frozen."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 4 from scene 3 in Frozen."
+            }
+          ],
+          "scene_image": "images/frozen_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Frozen.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 4 in Frozen."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 4 in Frozen."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 4 in Frozen."
+            }
+          ],
+          "scene_image": "images/frozen_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Frozen.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 5 in Frozen."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 5 in Frozen."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 3 from scene 5 in Frozen."
+            }
+          ],
+          "scene_image": "images/frozen_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M033",
+      "movie_title": "Toy Story",
+      "year": 2005,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Toy Story.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 1 in Toy Story."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 1 in Toy Story."
+            }
+          ],
+          "scene_image": "images/toy_story_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Toy Story.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 2 in Toy Story."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 2 in Toy Story."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 3 from scene 2 in Toy Story."
+            }
+          ],
+          "scene_image": "images/toy_story_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Toy Story.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 3 in Toy Story."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 3 in Toy Story."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 3 in Toy Story."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 4 from scene 3 in Toy Story."
+            }
+          ],
+          "scene_image": "images/toy_story_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Toy Story.",
+          "dialogues": [
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 1 from scene 4 in Toy Story."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 4 in Toy Story."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 3 from scene 4 in Toy Story."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 4 from scene 4 in Toy Story."
+            }
+          ],
+          "scene_image": "images/toy_story_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Toy Story.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 5 in Toy Story."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 5 in Toy Story."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 3 from scene 5 in Toy Story."
+            }
+          ],
+          "scene_image": "images/toy_story_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M034",
+      "movie_title": "Finding Nemo",
+      "year": 2018,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Finding Nemo.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 1 in Finding Nemo."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 1 in Finding Nemo."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 3 from scene 1 in Finding Nemo."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 4 from scene 1 in Finding Nemo."
+            }
+          ],
+          "scene_image": "images/finding_nemo_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Finding Nemo.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 2 in Finding Nemo."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 2 in Finding Nemo."
+            }
+          ],
+          "scene_image": "images/finding_nemo_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Finding Nemo.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 3 in Finding Nemo."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 3 in Finding Nemo."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 3 from scene 3 in Finding Nemo."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 4 from scene 3 in Finding Nemo."
+            }
+          ],
+          "scene_image": "images/finding_nemo_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Finding Nemo.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 4 in Finding Nemo."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 4 in Finding Nemo."
+            }
+          ],
+          "scene_image": "images/finding_nemo_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Finding Nemo.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 5 in Finding Nemo."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 5 in Finding Nemo."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 3 from scene 5 in Finding Nemo."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 4 from scene 5 in Finding Nemo."
+            }
+          ],
+          "scene_image": "images/finding_nemo_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M035",
+      "movie_title": "Up",
+      "year": 1991,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Up.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 1 in Up."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 1 in Up."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 1 in Up."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 4 from scene 1 in Up."
+            }
+          ],
+          "scene_image": "images/up_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Up.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 2 in Up."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 2 in Up."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 3 from scene 2 in Up."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 4 from scene 2 in Up."
+            }
+          ],
+          "scene_image": "images/up_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Up.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 3 in Up."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 3 in Up."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 3 from scene 3 in Up."
+            }
+          ],
+          "scene_image": "images/up_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Up.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 4 in Up."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 4 in Up."
+            }
+          ],
+          "scene_image": "images/up_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Up.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 5 in Up."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 5 in Up."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 3 from scene 5 in Up."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 4 from scene 5 in Up."
+            }
+          ],
+          "scene_image": "images/up_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M036",
+      "movie_title": "Bahubali",
+      "year": 2002,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Bahubali.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 1 in Bahubali."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 1 in Bahubali."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 3 from scene 1 in Bahubali."
+            }
+          ],
+          "scene_image": "images/bahubali_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Bahubali.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 2 in Bahubali."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 2 in Bahubali."
+            }
+          ],
+          "scene_image": "images/bahubali_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Bahubali.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 3 in Bahubali."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 3 in Bahubali."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 3 from scene 3 in Bahubali."
+            }
+          ],
+          "scene_image": "images/bahubali_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Bahubali.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 4 in Bahubali."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 4 in Bahubali."
+            }
+          ],
+          "scene_image": "images/bahubali_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Bahubali.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 5 in Bahubali."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 2 from scene 5 in Bahubali."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 3 from scene 5 in Bahubali."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 4 from scene 5 in Bahubali."
+            }
+          ],
+          "scene_image": "images/bahubali_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M037",
+      "movie_title": "RRR",
+      "year": 1994,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from RRR.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 1 in RRR."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 1 in RRR."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 3 from scene 1 in RRR."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 4 from scene 1 in RRR."
+            }
+          ],
+          "scene_image": "images/rrr_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from RRR.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 2 in RRR."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 2 in RRR."
+            }
+          ],
+          "scene_image": "images/rrr_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from RRR.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 3 in RRR."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 3 in RRR."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 3 from scene 3 in RRR."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 4 from scene 3 in RRR."
+            }
+          ],
+          "scene_image": "images/rrr_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from RRR.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 4 in RRR."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 4 in RRR."
+            }
+          ],
+          "scene_image": "images/rrr_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from RRR.",
+          "dialogues": [
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 1 from scene 5 in RRR."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 5 in RRR."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 3 from scene 5 in RRR."
+            }
+          ],
+          "scene_image": "images/rrr_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M038",
+      "movie_title": "KGF",
+      "year": 2021,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from KGF.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 1 in KGF."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 1 in KGF."
+            }
+          ],
+          "scene_image": "images/kgf_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from KGF.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 2 in KGF."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 2 in KGF."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 2 in KGF."
+            }
+          ],
+          "scene_image": "images/kgf_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from KGF.",
+          "dialogues": [
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 1 from scene 3 in KGF."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 3 in KGF."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 3 in KGF."
+            }
+          ],
+          "scene_image": "images/kgf_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from KGF.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 4 in KGF."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 4 in KGF."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 3 from scene 4 in KGF."
+            }
+          ],
+          "scene_image": "images/kgf_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from KGF.",
+          "dialogues": [
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 1 from scene 5 in KGF."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 5 in KGF."
+            }
+          ],
+          "scene_image": "images/kgf_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M039",
+      "movie_title": "Pushpa",
+      "year": 2002,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Pushpa.",
+          "dialogues": [
+            {
+              "character": "Raju",
+              "text": "Dialogue line 1 from scene 1 in Pushpa."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 1 in Pushpa."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 3 from scene 1 in Pushpa."
+            }
+          ],
+          "scene_image": "images/pushpa_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Pushpa.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 2 in Pushpa."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 2 in Pushpa."
+            }
+          ],
+          "scene_image": "images/pushpa_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Pushpa.",
+          "dialogues": [
+            {
+              "character": "Amit",
+              "text": "Dialogue line 1 from scene 3 in Pushpa."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 3 in Pushpa."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 3 from scene 3 in Pushpa."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 4 from scene 3 in Pushpa."
+            }
+          ],
+          "scene_image": "images/pushpa_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Pushpa.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 4 in Pushpa."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 4 in Pushpa."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 3 from scene 4 in Pushpa."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 4 from scene 4 in Pushpa."
+            }
+          ],
+          "scene_image": "images/pushpa_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Pushpa.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 5 in Pushpa."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 5 in Pushpa."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 3 from scene 5 in Pushpa."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 4 from scene 5 in Pushpa."
+            }
+          ],
+          "scene_image": "images/pushpa_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M040",
+      "movie_title": "Jawan",
+      "year": 2021,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Jawan.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 1 in Jawan."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 1 in Jawan."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 3 from scene 1 in Jawan."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 4 from scene 1 in Jawan."
+            }
+          ],
+          "scene_image": "images/jawan_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Jawan.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 2 in Jawan."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 2 in Jawan."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 3 from scene 2 in Jawan."
+            }
+          ],
+          "scene_image": "images/jawan_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Jawan.",
+          "dialogues": [
+            {
+              "character": "Raju",
+              "text": "Dialogue line 1 from scene 3 in Jawan."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 3 in Jawan."
+            }
+          ],
+          "scene_image": "images/jawan_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Jawan.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 4 in Jawan."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 4 in Jawan."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 3 from scene 4 in Jawan."
+            }
+          ],
+          "scene_image": "images/jawan_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Jawan.",
+          "dialogues": [
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 1 from scene 5 in Jawan."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 5 in Jawan."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 3 from scene 5 in Jawan."
+            }
+          ],
+          "scene_image": "images/jawan_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M041",
+      "movie_title": "Forrest Gump",
+      "year": 2013,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Forrest Gump.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 1 in Forrest Gump."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 1 in Forrest Gump."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 1 in Forrest Gump."
+            }
+          ],
+          "scene_image": "images/forrest_gump_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Forrest Gump.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 2 in Forrest Gump."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 2 in Forrest Gump."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 3 from scene 2 in Forrest Gump."
+            }
+          ],
+          "scene_image": "images/forrest_gump_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Forrest Gump.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 3 in Forrest Gump."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 3 in Forrest Gump."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 3 from scene 3 in Forrest Gump."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 4 from scene 3 in Forrest Gump."
+            }
+          ],
+          "scene_image": "images/forrest_gump_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Forrest Gump.",
+          "dialogues": [
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 1 from scene 4 in Forrest Gump."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 4 in Forrest Gump."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 3 from scene 4 in Forrest Gump."
+            }
+          ],
+          "scene_image": "images/forrest_gump_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Forrest Gump.",
+          "dialogues": [
+            {
+              "character": "Amit",
+              "text": "Dialogue line 1 from scene 5 in Forrest Gump."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 5 in Forrest Gump."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 5 in Forrest Gump."
+            }
+          ],
+          "scene_image": "images/forrest_gump_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M042",
+      "movie_title": "Shawshank Redemption",
+      "year": 2011,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Shawshank Redemption.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 1 in Shawshank Redemption."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 1 in Shawshank Redemption."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 1 in Shawshank Redemption."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 4 from scene 1 in Shawshank Redemption."
+            }
+          ],
+          "scene_image": "images/shawshank_redemption_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Shawshank Redemption.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 2 in Shawshank Redemption."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 2 from scene 2 in Shawshank Redemption."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 3 from scene 2 in Shawshank Redemption."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 4 from scene 2 in Shawshank Redemption."
+            }
+          ],
+          "scene_image": "images/shawshank_redemption_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Shawshank Redemption.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 3 in Shawshank Redemption."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 3 in Shawshank Redemption."
+            }
+          ],
+          "scene_image": "images/shawshank_redemption_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Shawshank Redemption.",
+          "dialogues": [
+            {
+              "character": "Raju",
+              "text": "Dialogue line 1 from scene 4 in Shawshank Redemption."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 4 in Shawshank Redemption."
+            }
+          ],
+          "scene_image": "images/shawshank_redemption_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Shawshank Redemption.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 5 in Shawshank Redemption."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 5 in Shawshank Redemption."
+            }
+          ],
+          "scene_image": "images/shawshank_redemption_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M043",
+      "movie_title": "Fight Club",
+      "year": 2011,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Fight Club.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 1 in Fight Club."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 1 in Fight Club."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 3 from scene 1 in Fight Club."
+            }
+          ],
+          "scene_image": "images/fight_club_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Fight Club.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 2 in Fight Club."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 2 in Fight Club."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 2 in Fight Club."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 4 from scene 2 in Fight Club."
+            }
+          ],
+          "scene_image": "images/fight_club_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Fight Club.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 3 in Fight Club."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 3 in Fight Club."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 3 from scene 3 in Fight Club."
+            }
+          ],
+          "scene_image": "images/fight_club_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Fight Club.",
+          "dialogues": [
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 1 from scene 4 in Fight Club."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 4 in Fight Club."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 3 from scene 4 in Fight Club."
+            }
+          ],
+          "scene_image": "images/fight_club_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Fight Club.",
+          "dialogues": [
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 1 from scene 5 in Fight Club."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 5 in Fight Club."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 3 from scene 5 in Fight Club."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 4 from scene 5 in Fight Club."
+            }
+          ],
+          "scene_image": "images/fight_club_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M044",
+      "movie_title": "The Godfather",
+      "year": 2008,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from The Godfather.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 1 in The Godfather."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 2 from scene 1 in The Godfather."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 1 in The Godfather."
+            }
+          ],
+          "scene_image": "images/the_godfather_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from The Godfather.",
+          "dialogues": [
+            {
+              "character": "Raju",
+              "text": "Dialogue line 1 from scene 2 in The Godfather."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 2 in The Godfather."
+            }
+          ],
+          "scene_image": "images/the_godfather_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from The Godfather.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 3 in The Godfather."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 3 in The Godfather."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 3 from scene 3 in The Godfather."
+            }
+          ],
+          "scene_image": "images/the_godfather_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from The Godfather.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 4 in The Godfather."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 4 in The Godfather."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 3 from scene 4 in The Godfather."
+            }
+          ],
+          "scene_image": "images/the_godfather_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from The Godfather.",
+          "dialogues": [
+            {
+              "character": "Raju",
+              "text": "Dialogue line 1 from scene 5 in The Godfather."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 5 in The Godfather."
+            }
+          ],
+          "scene_image": "images/the_godfather_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M045",
+      "movie_title": "Goodfellas",
+      "year": 1996,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Goodfellas.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 1 in Goodfellas."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 1 in Goodfellas."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 3 from scene 1 in Goodfellas."
+            }
+          ],
+          "scene_image": "images/goodfellas_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Goodfellas.",
+          "dialogues": [
+            {
+              "character": "Amit",
+              "text": "Dialogue line 1 from scene 2 in Goodfellas."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 2 in Goodfellas."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 3 from scene 2 in Goodfellas."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 4 from scene 2 in Goodfellas."
+            }
+          ],
+          "scene_image": "images/goodfellas_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Goodfellas.",
+          "dialogues": [
+            {
+              "character": "Amit",
+              "text": "Dialogue line 1 from scene 3 in Goodfellas."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 3 in Goodfellas."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 3 from scene 3 in Goodfellas."
+            }
+          ],
+          "scene_image": "images/goodfellas_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Goodfellas.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 4 in Goodfellas."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 4 in Goodfellas."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 3 from scene 4 in Goodfellas."
+            }
+          ],
+          "scene_image": "images/goodfellas_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Goodfellas.",
+          "dialogues": [
+            {
+              "character": "Raju",
+              "text": "Dialogue line 1 from scene 5 in Goodfellas."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 5 in Goodfellas."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 3 from scene 5 in Goodfellas."
+            }
+          ],
+          "scene_image": "images/goodfellas_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M046",
+      "movie_title": "Andaz Apna Apna",
+      "year": 2012,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Andaz Apna Apna.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 1 in Andaz Apna Apna."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 2 from scene 1 in Andaz Apna Apna."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 3 from scene 1 in Andaz Apna Apna."
+            }
+          ],
+          "scene_image": "images/andaz_apna_apna_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Andaz Apna Apna.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 2 in Andaz Apna Apna."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 2 in Andaz Apna Apna."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 3 from scene 2 in Andaz Apna Apna."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 4 from scene 2 in Andaz Apna Apna."
+            }
+          ],
+          "scene_image": "images/andaz_apna_apna_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Andaz Apna Apna.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Dialogue line 1 from scene 3 in Andaz Apna Apna."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 3 in Andaz Apna Apna."
+            }
+          ],
+          "scene_image": "images/andaz_apna_apna_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Andaz Apna Apna.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 4 in Andaz Apna Apna."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 4 in Andaz Apna Apna."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 3 from scene 4 in Andaz Apna Apna."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 4 from scene 4 in Andaz Apna Apna."
+            }
+          ],
+          "scene_image": "images/andaz_apna_apna_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Andaz Apna Apna.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 5 in Andaz Apna Apna."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 2 from scene 5 in Andaz Apna Apna."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 3 from scene 5 in Andaz Apna Apna."
+            }
+          ],
+          "scene_image": "images/andaz_apna_apna_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M047",
+      "movie_title": "Don",
+      "year": 2022,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Don.",
+          "dialogues": [
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 1 from scene 1 in Don."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 1 in Don."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 3 from scene 1 in Don."
+            }
+          ],
+          "scene_image": "images/don_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Don.",
+          "dialogues": [
+            {
+              "character": "Raju",
+              "text": "Dialogue line 1 from scene 2 in Don."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 2 in Don."
+            }
+          ],
+          "scene_image": "images/don_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Don.",
+          "dialogues": [
+            {
+              "character": "Amit",
+              "text": "Dialogue line 1 from scene 3 in Don."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 3 in Don."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 3 from scene 3 in Don."
+            }
+          ],
+          "scene_image": "images/don_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Don.",
+          "dialogues": [
+            {
+              "character": "Amit",
+              "text": "Dialogue line 1 from scene 4 in Don."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 4 in Don."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 3 from scene 4 in Don."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 4 from scene 4 in Don."
+            }
+          ],
+          "scene_image": "images/don_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Don.",
+          "dialogues": [
+            {
+              "character": "Simran",
+              "text": "Dialogue line 1 from scene 5 in Don."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 5 in Don."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 3 from scene 5 in Don."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 4 from scene 5 in Don."
+            }
+          ],
+          "scene_image": "images/don_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M048",
+      "movie_title": "Kabir Singh",
+      "year": 1994,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Kabir Singh.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 1 in Kabir Singh."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 1 in Kabir Singh."
+            }
+          ],
+          "scene_image": "images/kabir_singh_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Kabir Singh.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 2 in Kabir Singh."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 2 in Kabir Singh."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 3 from scene 2 in Kabir Singh."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 4 from scene 2 in Kabir Singh."
+            }
+          ],
+          "scene_image": "images/kabir_singh_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Kabir Singh.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 3 in Kabir Singh."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 3 in Kabir Singh."
+            }
+          ],
+          "scene_image": "images/kabir_singh_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Kabir Singh.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 4 in Kabir Singh."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 4 in Kabir Singh."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 3 from scene 4 in Kabir Singh."
+            }
+          ],
+          "scene_image": "images/kabir_singh_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Kabir Singh.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 5 in Kabir Singh."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 2 from scene 5 in Kabir Singh."
+            }
+          ],
+          "scene_image": "images/kabir_singh_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M049",
+      "movie_title": "War",
+      "year": 2011,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from War.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 1 in War."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 2 from scene 1 in War."
+            }
+          ],
+          "scene_image": "images/war_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from War.",
+          "dialogues": [
+            {
+              "character": "Batman",
+              "text": "Dialogue line 1 from scene 2 in War."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 2 in War."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 3 from scene 2 in War."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 4 from scene 2 in War."
+            }
+          ],
+          "scene_image": "images/war_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from War.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 3 in War."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 3 in War."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 3 from scene 3 in War."
+            }
+          ],
+          "scene_image": "images/war_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from War.",
+          "dialogues": [
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 1 from scene 4 in War."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 4 in War."
+            },
+            {
+              "character": "Batman",
+              "text": "Dialogue line 3 from scene 4 in War."
+            },
+            {
+              "character": "Farhan",
+              "text": "Dialogue line 4 from scene 4 in War."
+            }
+          ],
+          "scene_image": "images/war_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from War.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 1 from scene 5 in War."
+            },
+            {
+              "character": "Amit",
+              "text": "Dialogue line 2 from scene 5 in War."
+            },
+            {
+              "character": "Simran",
+              "text": "Dialogue line 3 from scene 5 in War."
+            }
+          ],
+          "scene_image": "images/war_scene5.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "M050",
+      "movie_title": "Sanju",
+      "year": 2002,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Description of scene 1 from Sanju.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 1 in Sanju."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 2 from scene 1 in Sanju."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 3 from scene 1 in Sanju."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 4 from scene 1 in Sanju."
+            }
+          ],
+          "scene_image": "images/sanju_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Description of scene 2 from Sanju.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Dialogue line 1 from scene 2 in Sanju."
+            },
+            {
+              "character": "Raju",
+              "text": "Dialogue line 2 from scene 2 in Sanju."
+            }
+          ],
+          "scene_image": "images/sanju_scene2.jpg"
+        },
+        {
+          "scene_id": "S003",
+          "scene_description": "Description of scene 3 from Sanju.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 3 in Sanju."
+            },
+            {
+              "character": "Ariadne",
+              "text": "Dialogue line 2 from scene 3 in Sanju."
+            },
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 3 from scene 3 in Sanju."
+            }
+          ],
+          "scene_image": "images/sanju_scene3.jpg"
+        },
+        {
+          "scene_id": "S004",
+          "scene_description": "Description of scene 4 from Sanju.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dialogue line 1 from scene 4 in Sanju."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 2 from scene 4 in Sanju."
+            },
+            {
+              "character": "Raj",
+              "text": "Dialogue line 3 from scene 4 in Sanju."
+            }
+          ],
+          "scene_image": "images/sanju_scene4.jpg"
+        },
+        {
+          "scene_id": "S005",
+          "scene_description": "Description of scene 5 from Sanju.",
+          "dialogues": [
+            {
+              "character": "Raju",
+              "text": "Dialogue line 1 from scene 5 in Sanju."
+            },
+            {
+              "character": "Joker",
+              "text": "Dialogue line 2 from scene 5 in Sanju."
+            },
+            {
+              "character": "Rancho",
+              "text": "Dialogue line 3 from scene 5 in Sanju."
+            }
+          ],
+          "scene_image": "images/sanju_scene5.jpg"
+        }
+      ]
+    }
+  ]
+}

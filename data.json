@@ -1,0 +1,145 @@
+{
+  "dataset_name": "Custom Multimodal Movie Dataset",
+  "movies": [
+    {
+      "movie_id": "H001",
+      "movie_title": "Inception",
+      "year": 2010,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Cobb explains dream-sharing to Ariadne.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "Dreams feel real while we're in them."
+            },
+            {
+              "character": "Ariadne",
+              "text": "It's only when we wake up that we realize something was strange."
+            }
+          ],
+          "scene_image": "images/inception_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Cobb spins the top to test reality.",
+          "dialogues": [
+            {
+              "character": "Cobb",
+              "text": "You're waiting for a train. A train that will take you far away."
+            }
+          ],
+          "scene_image": "images/inception_scene2.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "H002",
+      "movie_title": "The Dark Knight",
+      "year": 2008,
+      "language": "English",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Joker confronts Batman in interrogation room.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Why so serious?"
+            },
+            {
+              "character": "Batman",
+              "text": "Where are they?!"
+            }
+          ],
+          "scene_image": "images/darkknight_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Joker explains chaos.",
+          "dialogues": [
+            {
+              "character": "Joker",
+              "text": "Introduce a little anarchy. Upset the established order, and everything becomes chaos."
+            }
+          ],
+          "scene_image": "images/darkknight_scene2.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "B001",
+      "movie_title": "3 Idiots",
+      "year": 2009,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Virus asks about definition of machine.",
+          "dialogues": [
+            {
+              "character": "Chatur",
+              "text": "Sir, a machine is any combination of bodies so connected that their relative motions are constrained..."
+            },
+            {
+              "character": "Rancho",
+              "text": "Sir, a machine is anything that makes our work easy. Like this fan."
+            }
+          ],
+          "scene_image": "images/3idiots_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Rancho motivates Raju and Farhan.",
+          "dialogues": [
+            {
+              "character": "Rancho",
+              "text": "Pursue excellence, and success will follow, pants down."
+            }
+          ],
+          "scene_image": "images/3idiots_scene2.jpg"
+        }
+      ]
+    },
+    {
+      "movie_id": "B002",
+      "movie_title": "Dilwale Dulhania Le Jayenge",
+      "year": 1995,
+      "language": "Hindi",
+      "scenes": [
+        {
+          "scene_id": "S001",
+          "scene_description": "Raj meets Simran on the train.",
+          "dialogues": [
+            {
+              "character": "Raj",
+              "text": "Bade bade deshon mein aisi choti choti baatein hoti rehti hain."
+            },
+            {
+              "character": "Simran",
+              "text": "Tumhe shayad lagta hoga ke main ek typical ladki hoon..."
+            }
+          ],
+          "scene_image": "images/ddlj_scene1.jpg"
+        },
+        {
+          "scene_id": "S002",
+          "scene_description": "Final train scene.",
+          "dialogues": [
+            {
+              "character": "Bauji",
+              "text": "Ja Simran, jee le apni zindagi."
+            },
+            {
+              "character": "Raj",
+              "text": "Simran!"
+            }
+          ],
+          "scene_image": "images/ddlj_scene2.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+# Large Files (>100MB) - GitHub Limit
+*.dylib
+*.so
+*.dll
+*.exe
+*.dmg
+*.pkg
+*.deb
+*.rpm
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# AI/ML Model Files (Usually Large)
+*.bin
+*.model
+*.h5
+*.pb
+*.onnx
+*.tflite
+*.pt
+*.pth
+*.safetensors
+
+# PyTorch/TensorFlow Cache
+.torch/
+.tensorflow/
+.cache/
+.huggingface/
+
+# Cache & build
+.cache/
+dist/
+build/
+
+# IDE and System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Environment Variables
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Specific Large Directories
+**/venv/
+**/.venv/
+**/node_modules/
+**/__pycache__/
+**/torch/
+**/transformers/

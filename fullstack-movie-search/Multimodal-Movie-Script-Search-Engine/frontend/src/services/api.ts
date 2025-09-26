@@ -1,108 +1,134 @@
 import axios from 'axios';
-import { DialogueResult, SceneResult, ContextualResult, SummaryResponse, GenerationResponse, Dataset } from '../types/index.ts';
-import { mockSearchAPI } from './mockApi';
+import { DialogueResult, SceneResult, ContextualResult, SummaryResponse, GenerationResponse, Dataset } from '../types/index';
 
 const API_BASE_URL = 'http://localhost:5001/api';
-
-// Check if we're in production (GitHub Pages) or development
-const isProduction = window.location.hostname.includes('github.io') || window.location.hostname !== 'localhost';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
   timeout: 30000,
 });
 
-// Fallback to mock API if real API is not available
-const withFallback = async <T>(apiCall: () => Promise<T>, mockCall: () => Promise<T>): Promise<T> => {
-  if (isProduction) {
-    return mockCall();
-  }
-  
-  try {
-    return await apiCall();
-  } catch (error) {
-    console.warn('API call failed, falling back to mock data:', error);
-    return mockCall();
-  }
-};
-
 export const searchAPI = {
   dialogueToScene: async (dialogue: string): Promise<{ results: SceneResult[] }> => {
-    return withFallback(
-      async () => {
-        const response = await api.post('/search/dialogue-to-scene', { dialogue });
-        return response.data;
-      },
-      () => mockSearchAPI.dialogueToScene(dialogue)
-    );
+    try {
+      const response = await api.post('/search/dialogue-to-scene', { dialogue });
+      return response.data;
+    } catch (error) {
+      console.error('API Error:', error);
+      return {
+        results: [{
+          id: 1,
+          movie: "The Dark Knight",
+          description: `Scene related to: ${dialogue}`,
+          image_url: "https://picsum.photos/400/300?random=1",
+          video_url: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          genre: "Action, Crime, Drama",
+          year: 2008,
+          language: "English",
+          country: "USA",
+          type: "Movie",
+          similarity: 0.95
+        }]
+      };
+    }
   },
 
-  sceneToDialogue: async (imageFile: File): Promise<{ results: DialogueResult[] }> => {
-    return withFallback(
-      async () => {
-        const formData = new FormData();
-        formData.append('image', imageFile);
-        const response = await api.post('/search/scene-to-dialogue', formData, {
-          headers: { 'Content-Type': 'multipart/form-data' }
-        });
-        return response.data;
-      },
-      () => mockSearchAPI.sceneToDialogue(imageFile)
-    );
+  sceneToDialogue: async (image: File): Promise<{ results: DialogueResult[] }> => {
+    try {
+      const formData = new FormData();
+      formData.append('image', image);
+      const response = await api.post('/search/scene-to-dialogue', formData);
+      return response.data;
+    } catch (error) {
+      console.error('API Error:', error);
+      return {
+        results: [{
+          id: 1,
+          movie: "The Dark Knight",
+          dialogue: "Why so serious?",
+          genre: "Action, Crime, Drama",
+          year: 2008,
+          language: "English",
+          country: "USA",
+          type: "Dialogue",
+          similarity: 0.95
+        }]
+      };
+    }
   },
 
-  contextualSearch: async (dialogue: string, imageFile: File): Promise<{ results: ContextualResult[] }> => {
-    return withFallback(
-      async () => {
-        const formData = new FormData();
-        formData.append('dialogue', dialogue);
-        formData.append('image', imageFile);
-        const response = await api.post('/search/contextual', formData, {
-          headers: { 'Content-Type': 'multipart/form-data' }
-        });
-        return response.data;
-      },
-      () => mockSearchAPI.contextualSearch(dialogue, imageFile)
-    );
+  contextualSearch: async (query: string): Promise<{ results: ContextualResult[] }> => {
+    try {
+      const response = await api.post('/search/contextual', { query });
+      return response.data;
+    } catch (error) {
+      console.error('API Error:', error);
+      return {
+        results: [{
+          id: 1,
+          movie: "The Dark Knight",
+          content: `Content related to: ${query}`,
+          type: "Contextual",
+          similarity: 0.95,
+          genre: "Action, Crime, Drama",
+          year: 2008,
+          language: "English",
+          country: "USA"
+        }]
+      };
+    }
   },
 
-  summarize: async (text: string): Promise<SummaryResponse> => {
-    return withFallback(
-      async () => {
-        const response = await api.post('/summarize', { text });
-        return response.data;
-      },
-      () => mockSearchAPI.summarize(text)
-    );
+  summarizeText: async (text: string): Promise<SummaryResponse> => {
+    try {
+      const response = await api.post('/summarize', { text });
+      return response.data;
+    } catch (error) {
+      console.error('API Error:', error);
+      return {
+        summary: `Summary of: ${text.substring(0, 100)}...`,
+        confidence: 0.85
+      };
+    }
   },
 
-  generate: async (prompt: string, type: string): Promise<GenerationResponse> => {
-    return withFallback(
-      async () => {
-        const response = await api.post('/generate', { prompt, type });
-        return response.data;
-      },
-      () => mockSearchAPI.generate(prompt, type)
-    );
+  generateText: async (prompt: string, type: string): Promise<GenerationResponse> => {
+    try {
+      const response = await api.post('/generate', { prompt, type });
+      return response.data;
+    } catch (error) {
+      console.error('API Error:', error);
+      return {
+        generated_text: `Generated ${type} based on: ${prompt}`,
+        confidence: 0.80
+      };
+    }
   },
 
   getDataset: async (): Promise<Dataset> => {
-    return withFallback(
-      async () => {
-        const response = await api.get('/dataset');
-        return response.data;
-      },
-      () => mockSearchAPI.getDataset()
-    );
+    try {
+      const response = await api.get('/dataset');
+      return response.data;
+    } catch (error) {
+      console.error('API Error:', error);
+      return {
+        total_movies: 41,
+        total_dialogues: 66,
+        total_scenes: 46
+      };
+    }
   },
 
   healthCheck: async (): Promise<{ status: string; models_loaded: boolean }> => {
-    return withFallback(
-      async () => {
-        const response = await api.get('/health');
-        return response.data;
-      },
-      () => mockSearchAPI.healthCheck()
-    );
+    try {
+      const response = await api.get('/health');
+      return response.data;
+    } catch (error) {
+      console.error('API Error:', error);
+      return {
+        status: "healthy",
+        models_loaded: true
+      };
+    }
   }
 };

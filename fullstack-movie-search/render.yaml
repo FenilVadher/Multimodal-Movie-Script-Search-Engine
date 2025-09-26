@@ -1,0 +1,29 @@
+services:
+  # Backend API Service
+  - type: web
+    name: movie-search-api
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: "cd Multimodal-Movie-Script-Search-Engine/backend && pip install -r requirements.txt"
+    startCommand: "cd Multimodal-Movie-Script-Search-Engine/backend && python app_fixed.py"
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - key: PORT
+        value: 5001
+      - key: FLASK_APP
+        value: app_fixed.py
+
+  # Frontend Static Site
+  - type: web
+    name: movie-search-frontend
+    env: static
+    region: oregon
+    plan: free
+    buildCommand: "cd Multimodal-Movie-Script-Search-Engine/frontend && npm install && npm run build"
+    staticPublishPath: "Multimodal-Movie-Script-Search-Engine/frontend/build"
+    routes:
+      - type: rewrite
+        source: "/*"
+        destination: "/index.html"

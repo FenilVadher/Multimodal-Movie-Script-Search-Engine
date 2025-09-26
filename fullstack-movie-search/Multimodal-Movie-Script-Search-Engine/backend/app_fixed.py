@@ -1178,5 +1178,10 @@ if __name__ == '__main__':
     print(f"✓ {len(search_engine.movies_data)} movies with detailed metadata")
     print(f"✓ {len(search_engine.dialogs_data)} dialogues with keyword matching")
     print(f"✓ {len(search_engine.scenes_data)} scenes with enhanced descriptions")
-    print("Backend will run on http://localhost:5001")
-    app.run(host='0.0.0.0', port=5001, debug=True)
+    
+    # Get port from environment variable (for Render deployment)
+    port = int(os.environ.get('PORT', 5001))
+    debug_mode = os.environ.get('FLASK_ENV', 'development') != 'production'
+    
+    print(f"Backend will run on port {port}")
+    app.run(host='0.0.0.0', port=port, debug=debug_mode)
